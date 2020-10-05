@@ -225,12 +225,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_PACKAGES += \
     FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
-
-PRODUCT_BOOT_JARS += \
-    qcom.fmradio
+    libqcomfm_jni
 endif
 
 # fwk-detect
